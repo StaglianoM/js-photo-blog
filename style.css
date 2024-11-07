@@ -27,18 +27,47 @@ h1 {
     margin-top: 25px;
     background-color: white;
     padding: 20px;
+    flex-basis: 350px;
+}
+
+.card .pin {
     position: relative;
-    flex-basis: 450px;
+    top: 0px;
+    left: 48%;
+
 }
 
-#pin {
-    position: absolute;
-    top: -10px;
-    right: 0;
+.card img.thumbnail {
+    width: 400px;
+    cursor: pointer;
+}
+
+.lightbox {
+    display: none;
+    /* Inizialmente nascosto */
+    position: fixed;
+    top: 0;
     left: 0;
-    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    /* Sfondo scuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
 }
 
-#placeholder {
-    width: 100%;
+#closeButton {
+    position: absolute;
+    background-color: #ff0a0a;
+    color: white;
+    border-radius: 999px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    top: 80px;
+    right: 47%;
+    /* 10px dal bordo destro */
+    display: none;
 }

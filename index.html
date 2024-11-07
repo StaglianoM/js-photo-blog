@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photo-Blog</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -15,15 +16,19 @@
     <div class="Container">
 
         <div class="row" id="gallery">
-
+          
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <div id="lightbox" class="lightbox">
+        <img id="lightboxImage" src="" alt="Immagine ingrandita">
+        <button id="closeButton">Chiudi</button>
+    </div>
+
     <script src="script.js"></script>
 </body>
 
 </html>
-
 
 
             <!-- <div class="card">
