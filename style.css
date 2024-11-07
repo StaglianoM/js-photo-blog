@@ -19,16 +19,16 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 50px;
-    gap: 25px;
+    gap: 35px;
 }
 
 
-.card {  
-margin-top: 25px;
-background-color: white;
-padding: 20px ;
-position: relative;
-flex-basis: 500px;
+.card {
+    margin-top: 25px;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    flex-basis: 450px;
 }
 
 #pin {
@@ -40,5 +40,5 @@ flex-basis: 500px;
 }
 
 #placeholder {
-width: 100%;
+    width: 100%;
 }
